@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>JavaScript on your page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="position: relative;">
+    <div class="row offset-3">
+      <div class="col-2">
+        <h2 style="font-size: 35px">Player 1 Score</h2>
+        <h2 class="score1 ml-6">0</h2>
+      </div>
+      <div class="col-2 offset-5">
+        <h2 style="font-size: 35px">Player 2 Score</h2>
+        <h2 class="score2 ml-5">0</h2>
+      </div>
+      <div class="row">
+        <div class="announcement"></div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <button class="deal">Deal</button>
+    </div>
+    <div class="row justify-content-center">
+      <button class="New">New Game</button>
+    </div>
+    <div class="row offset-3">
+      <div class="col-2 ml-2 mt-5">
+        <img src="images/blank.png" alt="black" class="card1" />
+      </div>
+      <div class="col-2 ml-0 mr-3 mt-5">
+        <img src="images/blank.png" alt="black" class="card2" />
+      </div>
+      <div class="col-2 ml-2 mt-5">
+        <img src="images/blank.png" alt="black" class="card3" />
+      </div>
+      <div class="col-2 mt-5 ml-2">
+        <img src="images/blank.png" alt="black" class="card4" />
+      </div>
+    </div>
+    <div class="row offset-3">
+      <div class="co1-2 mt-5">
+        <button class="hold">Hold</button>
+      </div>
+      <div class="co1-2 mt-5 ml-5">
+        <button class="another1">Draw Card</button>
+      </div>
+      <div class="co1-2 mt-5">
+        <button class="hold2">Hold</button>
+      </div>
+      <div class="co1-2 mt-5 ml-5">
+        <button class="another2">Draw Card</button>
+      </div>
+    </div>
+    <div class="row mt-5 offset-3">
+      <div class="col-2 ml-2">
+        <img src="images/blank.png" alt="black" class="cardA" />
+      </div>
+      <div class="col-2 ml-0">
+        <img src="images/blank.png" alt="black" class="cardB" />
+      </div>
+
+      <div class="col-2 ml-4">
+        <img src="images/blank.png" alt="black" class="cardA2" />
+      </div>
+      <div class="col-2 ml-1">
+        <img src="images/blank.png" alt="black" class="cardB2" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

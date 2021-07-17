@@ -1,0 +1,52 @@
+.deal {
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+body {
+  /*background-color: darkgreen;*/
+  font-family: "Lobster", cursive;
+  background-image: url(images/bjtable.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hold {
+  width: 100px;
+  height: 50px;
+  margin-left: 100px;
+}
+
+.another1 {
+  width: 100px;
+  height: 50px;
+}
+.another2 {
+  width: 100px;
+  height: 50px;
+}
+.hold2 {
+  width: 100px;
+  height: 50px;
+  margin-left: 265px;
+}
+
+.hidden {
+  display: none;
+}
+
+.New {
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.announcement {
+  display: inline-block;
+  height: 120px;
+  width: 1000px;
+  font-size: 60px;
+  margin-left: 200px;
+}
